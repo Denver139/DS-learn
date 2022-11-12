@@ -32,9 +32,28 @@
  **Что практикуем**
  Учимся писать хороший код на Python
 
-:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/
-main/project_0/README.md#Олгавление)
+:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/main/project_0/README.md#Олгавление)
 
 
 ### Краткая информация о данных
+....
 
+:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/main/project_0/README.md#Олгавление)
+
+
+### Этапы работы над проектом
+....
+
+:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/main/project_0/README.md#Олгавление)
+
+
+### Результат
+....
+
+:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/main/project_0/README.md#Олгавление)
+
+
+### Выводы
+....
+
+:arrow_up:[к оглавлению](https://github.com/Denver139/DS-learn/blob/main/project_0/README.md#Олгавление)
