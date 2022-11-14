@@ -7,14 +7,14 @@ def random_predict(number:int = 1) -> int:
     """Рандомно угадываем число
 
     Args:
-        number (int, optional): Загаданное число. Defaults to 1.
+        number (int, optional): Загаданное число
 
     Returns:
         int: Число попыток
     """
-    count = 0
     number = np.random.randint(1, 101) #Компьютер загадывает рандомное число
-    mn, mx = 1, 100
+    count = 0
+    mn, mx = 1, 100 #Диапазон загаданного числа 
     
     while True:
         count += 1 
@@ -24,7 +24,7 @@ def random_predict(number:int = 1) -> int:
         elif predict_number < number:
             mn = predict_number + 1
         elif number == predict_number:
-            break #выход из цикла, если угадали 
+            break #выход из цикла, когда угадали 
     return(count)
 
     
@@ -48,9 +48,7 @@ def score_game(random_predict) -> int:
     print(f"Этот алгоритм угадывает число в среднем за:{score} попыток")
     return score
 
-
 if __name__ == "__main__":
     # RUN
     score_game(random_predict)
-
 
