@@ -3,15 +3,16 @@
 """
 import numpy as np
 
-def random_predict(number:int = 1) -> int:
-    """Рандомно угадываем число
 
+def random_predict(number:int = 1) -> int:
+    
+    """Рандомно угадываем число
     Args:
         number (int, optional): Загаданное число
-
     Returns:
         int: Число попыток
     """
+    
     number = np.random.randint(1, 101) #Компьютер загадывает рандомное число
     count = 0
     mn, mx = 1, 100 #Диапазон загаданного числа 
@@ -29,14 +30,14 @@ def random_predict(number:int = 1) -> int:
 
     
 def score_game(random_predict) -> int:
+    
     """За какое количство попыток в среднем за 1000 подходов угадываем
-
     Args:
         random_predict ([type]): функция угадывания
-
     Returns:
         int: среднее количество попыток
     """
+    
     count_ls = []
     #np.random.seed(1)  # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000))  # загадываем
